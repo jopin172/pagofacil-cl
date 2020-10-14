@@ -1,0 +1,19 @@
+{
+    "name": "jopin172/pagofacil-cl",
+    "description": "Implementando Pago Facil de Chile",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jopin172\\": "Jopin172/"
+        }
+    },
+    "require": {
+        "pstpagofacil/pagofacil-core-php": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Johan",
+            "email": "johanrivera172@gmail.com"
+        }
+    ]
+}
