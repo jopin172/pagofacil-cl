@@ -126,7 +126,7 @@ class Pagofacil{
          * $idTrx y $payUrl
          */
         $result=json_decode($response);
-        $idTrx  = $result->data->idTrx.' <br>';
+        $idTrx  = $result->data->idTrx;
         $payUrl = $result->data->payUrl[0]->url;
         $this->registerData($idTrx,$payUrl);
         header('location:'.$payUrl);
@@ -202,7 +202,7 @@ class Pagofacil{
           die('El cliente ha cancelado la transacción - '.$x_result);
         }
 
-        var_dump($_POST);
+        //var_dump($_POST);
     }
     
   }
